@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Pedido en el bar </title>
+            <link rel = "stylesheet" href = "style.css">
+            <script src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+            <script src="productos.js" defer></script>
+            <script src="carrito.class.js" defer></script>
+            <script src="luciana.js" defer></script>
+    </head>
+        <body>
+            <div class="header">
+                <h1>CASA ROSA</h1>
+                <p>DESTILERÍA ARGENTINA</p>
+            </div>
+            <h3>PEDIDO EN EL BAR</h3>
+            <form id = "myForm">
+            <div class="name-container">
+                <label>Nombre y apellido: </label>
+                <input type="text" name="nombre" id="nombreYApellido" value = >
+            </div>
+            <div class="name-container1">
+                <label>Número de mesa: </label>
+                <input type="number" name="mesa" id="numeroMesa" value =>
+            </div>
+            </form>
+                <div id="menuCarrito" style="border: 1px solid rgb(54, 54, 54, 0.1)">
+                <div id="carrito" style="border: 1px solid rgb(255, 82, 163, 0.5)"></div>
+                <div id="totalCarrito" style="border: 1px solid rgb(255, 82, 163, 0.5)"></div>
+                    <button id=vaciarCarrito>Vaciar</button>
+                    <button id=confirmarPedido>Confirmar pedido</button>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+            </div>
+        </body>
+</html>

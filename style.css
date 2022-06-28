@@ -1,0 +1,66 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.6)), url("https://i0.wp.com/zakarquitectura.com.ar/wp-content/uploads/2021/04/IMG_2089-scaled.jpg");
+    color: white;
+    font-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+body {
+    border:1px solid gray;
+    border-radius:20px;
+    margin:2%;
+    padding:2%;
+    background-color: white;
+}
+h1 {
+  color:palevioletred;
+  text-align: center;
+}
+h2 {
+  color:black;
+  text-align: center;
+}
+h3 {
+  border-bottom:1px solid grey;
+  padding:1%;
+}
+td, th {
+  padding: 10px 20px 10px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 50px;
+  display: inline-block;
+  flex-direction: column;
+  width: 250px;
+  align-items: stretch;
+}
+
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name-container {
+  margin: 20px;
+}
+.name-container1 {
+  margin: 20px;
+}
+
+button {
+    background-color: #ff85ae;
+    border: rgb(255, 236, 239);
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.image {
+  align-items: baseline;
+}
